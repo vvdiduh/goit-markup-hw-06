@@ -686,6 +686,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition-duration: 700ms;
+    padding: 40px;
 }
 
 
@@ -700,3 +701,70 @@ footer {
     background-color: transparent;
 }
 
+.modal-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    color: var(--color-main-text);
+    margin-bottom: 12px;
+    display: block;
+}
+
+.modal-imput {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal-lable {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.user-comment {
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+}
+
+.contract-check {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contract {
+    color: var(--color-hover);
+    text-decoration: underline;
+}
+
+.btn-form {
+    height: 50px;
+    width: 200px;
+    color: var(--background-main);
+    background-color: var(--color-hover);
+    box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 
+    0px 1px 2px rgb(0 0 0 / 8%), 
+    0px 2px 2px rgb(0 0 0 / 12%);
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: transparent;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+/* identical to box height, or 188% */
+}

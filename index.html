@@ -344,13 +344,29 @@
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-        <button type="button" class="close-modal" data-modal-close>
-            <svg height="11" width="11">
-                <use href="./image/symbol-defs.svg#close"></use>
-            </svg>
-        </button>
-    </div>
+        <div class="modal">
+            <button type="button" class="close-modal" data-modal-close>
+                <svg height="11" width="11">
+                    <use href="./image/symbol-defs.svg#close"></use>
+                </svg>
+            </button>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form>
+                <label for="user-neme" class="modal-lable">Имя</label>
+                    <input type="text" class="modal-imput" name="user-neme" id="user-neme">
+                <label for="user-tel" class="modal-lable">Телефон</label>
+                    <input type="tel" class="modal-imput" name="user-tel" id="user-tel">
+                <label for="user-email" class="modal-lable">Почта</label>
+                    <input type="email" class="modal-imput" name="user-email" id="user-email">
+                <label for="user-comment" class="modal-lable">Комментарий</label>
+                    <textarea class="user-comment" name="user-comment" id="user-comment"></textarea>
+                <label for="" class="contract-check">
+                    <input type="checkbox">
+                    Соглашаюсь с рассылкой и принимаю <span class="contract">Условия договора</span>
+                </label>
+                <input type="submit" class="btn-form">
+            </form>
+        </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
