@@ -353,15 +353,30 @@
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form>
                 <label for="user-neme" class="modal-lable">Имя</label>
-                    <input type="text" class="modal-imput" name="user-neme" id="user-neme">
+                <div class="input-wrap">
+                    <input type="text" class="modal-imput" name="user-neme" placeholder="" id="user-neme">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./image/icon.svg#icon-person"></use>
+                    </svg>
+                </div>
                 <label for="user-tel" class="modal-lable">Телефон</label>
-                    <input type="tel" class="modal-imput" name="user-tel" id="user-tel">
+                <div class="input-wrap">
+                    <input type="tel" class="modal-imput" name="user-tel" placeholder="" id="user-tel">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./image/icon.svg#icon-email"></use>
+                    </svg>
+                </div>
                 <label for="user-email" class="modal-lable">Почта</label>
-                    <input type="email" class="modal-imput" name="user-email" id="user-email">
+                <div class="input-wrap">
+                    <input type="email" class="modal-imput" name="user-email" placeholder="" id="user-email">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./image/icon.svg#icon-phone"></use>
+                    </svg>
+                </div>
                 <label for="user-comment" class="modal-lable">Комментарий</label>
-                    <textarea class="user-comment" name="user-comment" id="user-comment"></textarea>
-                <label for="" class="contract-check">
-                    <input type="checkbox">
+                <textarea class="user-comment" name="user-comment" id="user-comment"></textarea>
+                    <input type="checkbox" id="contract-check" class="contract-check-text">
+                    <label for="contract-check" class="contract-check">
                     Соглашаюсь с рассылкой и принимаю <span class="contract">Условия договора</span>
                 </label>
                 <input type="submit" class="btn-form">
