@@ -679,6 +679,15 @@ footer {
     background-color: transparent;
     padding-left: 16px;
     margin-right: 12px;
+    color: var(--color-secondary-text);
+}
+
+.subscription-input:focus {
+    outline: none;
+}
+
+.subscription-icon {
+    margin-left: 10px;
 }
 
 .backdrop {
@@ -857,7 +866,9 @@ footer {
     border-radius: 4px;
     border-color: transparent;
     margin: 0 auto;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
